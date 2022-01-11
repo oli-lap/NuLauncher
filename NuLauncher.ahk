@@ -1,16 +1,4 @@
-﻿
-
-
-
-
-
-
-
-;Not detecting when download fails
-
-
-
-#NoEnv
+﻿#NoEnv
 #SingleInstance, Force
 #Persistent
 #NoTrayIcon
@@ -25,7 +13,7 @@ NuPath := A_AppData "\NuLauncher"
 
 GitNu := "https://raw.githubusercontent.com/oli-lap/NuLauncher/main/NuLauncher/Nu.ahk"
 GitVer := "https://raw.githubusercontent.com/oli-lap/NuLauncher/main/NuLauncher/version.txt"
-GitIco := "https://raw.githubusercontent.com/oli-lap/NuLauncher/main/NuLauncher/NuA.ico"
+GitIco := "https://raw.githubusercontent.com/oli-lap/NuLauncher/main/NuLauncher/Nu.ico"
 
 MakeUpdate := 0
 
