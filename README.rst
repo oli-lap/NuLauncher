@@ -23,6 +23,6 @@ Quick start
 Features
 --------
 
-- Test feature
-  -Test subfeature
-- Test other feature
+* Test feature
+  * Test subfeature
+* Test other feature
