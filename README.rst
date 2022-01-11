@@ -57,28 +57,31 @@ Features
 Security
 --------
 
-* Passwords saved at the Account creation are stored in plaintext in the NuLauncher.json file. It is advisable to leave the password field empty and to fill it every time the account is connected. The password will not be stored in this case.
-* Save the account password at your own risk
+*  Passwords saved at the Account creation are stored in plaintext in the NuLauncher.json file. It is advisable to leave the password field empty and to fill it every time the account is connected. The password will not be stored in this case.
+*  Save the account password at your own risk
 
 Limitations
 -----------
 
-* Maximum 2 accounts can be launched at the same time
-* The 2 accounts must be logged on the same realm
-* Toons < lvl 6 can't be found on the Herald's API
-* NuLauncher doesn't go through the DAoC patcher to log in the game
-   * When a new DAoC version is avaible, start DAoC noramlly for the update to take place (no need to log in to the game)
-* Ywain only
+*  Maximum 2 accounts can be launched at the same time
+*  The 2 accounts must be logged on the same realm
+*  Toons < lvl 6 can't be found on the Herald's API
+*  NuLauncher doesn't go through the DAoC patcher to log in the game
+
+   *  When a new DAoC version is avaible, start DAoC noramlly for the update to take place (no need to log in to the game)
+
+*  Ywain only
 
 ToDo
 ----
 
-* Add notes to teams
-* Save and load DAoC UI layout
-* Save and load toons macros
+*  Add notes to teams
+*  Save and load DAoC UI layout
+*  Save and load toons macros
 
 ChangeLog
 ---------
 
-* 1.1.1
-   * Initial release
+*  1.1.1
+
+   *  Initial release
