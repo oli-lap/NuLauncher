@@ -10,11 +10,19 @@ What is NuLauncher?
 
 NuLauncher is an open source launcher for Dark Age of Camelot.
 
-- Manage your accounts, toons and teams
-- Launch them easily
+- Manage your DAoC accounts, toons and teams
+- Display in one place your toons levels, ranks and BPs
+- Launch accounts, toons or teams easily without going through the patcher or typing your password
 
 Quick start
 -----------
 
 - Install `AutoHotkey <https://www.autohotkey.com>`_
 - Download and run `NuLauncher.ahk <https://raw.githubusercontent.com/oli-lap/NuLauncher/main/NuLauncher.ahk>`_
+
+Features
+--------
+
+- Test feature
+	-Test subfeature
+- Test other feature
