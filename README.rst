@@ -25,7 +25,7 @@ Quick start
 Features
 --------
 
-Create, edit, delete accounts
+**Create, edit, delete accounts**
 
 *  Account name
 *  Optional password
@@ -35,7 +35,7 @@ Create, edit, delete accounts
 
 *  Optional Window name : Renames the game window
 
-Create, edit, delete toons
+**Create, edit, delete toons**
 
 *  Toon name
 *  Toon associated account
@@ -44,18 +44,20 @@ Create, edit, delete toons
 
    *  These infos are updated every time NuLauncher is launched
 
-Create, edit, delete teams
+**Create, edit, delete teams**
 
 *  Two toons per team
 *  Realm must be the same, toon and associated account must be different
 
-Select DAoC Path
+**Select DAoC Path**
 
 *  game.dll must be in the selected path
 
-When the game is running, select its account and the target screen to move its window
-Filter by favorites only
-Filter by realm
+**When the game is running, select its account and the target screen to move its window**
+
+**Filter by favorites only**
+
+**Filter by realm**
 
 Security
 --------
