@@ -24,5 +24,5 @@ Features
 --------
 
 - Test feature
-	-Test subfeature
+  -Test subfeature
 - Test other feature
