@@ -1,4 +1,6 @@
-﻿#NoEnv
+﻿;Ctrl+s to download me!
+
+#NoEnv
 #SingleInstance, Force
 #Persistent
 #NoTrayIcon

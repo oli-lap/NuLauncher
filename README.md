@@ -1,3 +1,20 @@
-# NuLauncher
-Open source launcher for Dark Age of Camelot
-[Download](https://raw.githubusercontent.com/oli-lap/NuLauncher/main/NuLauncher.ahk) and run NuLauncher.ahk <a id="raw-url" href="https://raw.githubusercontent.com/oli-lap/NuLauncher/main/NuLauncher.ahk">Download FILE</a>
+NuLauncher
+==========
+
+.. image:: https://img.shields.io/discord/348973006581923840.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2
+   :alt: NuLauncher Discord Server
+   :target: https://discord.gg/v9GpYWVya5
+
+What is NuLauncher?
+-------------------
+
+NuLauncher is an open source launcher for Dark Age of Camelot.
+
+- Manage your accounts, toons and teams
+- Launch them easily
+
+Quick start
+-----------
+
+- Install AutoHotkey: https://www.autohotkey.com/
+- Download and run NuLauncher.ahk: https://raw.githubusercontent.com/oli-lap/NuLauncher/main/NuLauncher.ahk
