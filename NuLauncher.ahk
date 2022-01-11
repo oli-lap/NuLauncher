@@ -25,7 +25,7 @@ NuPath := A_AppData "\NuLauncher"
 
 GitNu := "https://raw.githubusercontent.com/oli-lap/NuLauncher/main/NuLauncher/Nu.ahk"
 GitVer := "https://raw.githubusercontent.com/oli-lap/NuLauncher/main/NuLauncher/version.txt"
-GitIco := "https://raw.githubusercontent.com/oli-lap/NuLauncher/main/NuLauncher/Nu.ico"
+GitIco := "https://raw.githubusercontent.com/oli-lap/NuLauncher/main/NuLauncher/NuA.ico"
 
 MakeUpdate := 0
 
