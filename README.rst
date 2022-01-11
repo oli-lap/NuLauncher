@@ -16,5 +16,5 @@ NuLauncher is an open source launcher for Dark Age of Camelot.
 Quick start
 -----------
 
-- Install AutoHotkey: https://www.autohotkey.com/
-- Download and run NuLauncher.ahk: https://raw.githubusercontent.com/oli-lap/NuLauncher/main/NuLauncher.ahk
+- Install `AutoHotkey <https://www.autohotkey.com>`_
+- Download and run `NuLauncher.ahk <https://raw.githubusercontent.com/oli-lap/NuLauncher/main/NuLauncher.ahk>`_
