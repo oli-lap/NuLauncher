@@ -25,36 +25,37 @@ Quick start
 Features
 --------
 
-*  Create, edit, delete accounts
+Create, edit, delete accounts
 
-   *  Account name
-   *  Optional password
+*  Account name
+*  Optional password
 
-      *  Will be saved in NuLauncher.json in plaintext if filled in the account creation
-      *  Will be asked every time the account, toon or team is launched if left empty in the account creation. The password will not be stored in this case.
+   *  Will be saved in NuLauncher.json in plaintext if filled in the account creation
+   *  Will be asked every time the account, toon or team is launched if left empty in the account creation. The password will not be stored in this case.
 
-   *  Optional Window name : Renames the game window
+*  Optional Window name : Renames the game window
 
-*  Create, edit, delete toons
+Create, edit, delete toons
 
-   *  Toon name
-   *  Toon associated account
-   *  Optional toon note
-   *  Toons infos (realm, class, level, RR, BPs, server) are automatically fetched from the official API
+*  Toon name
+*  Toon associated account
+*  Optional toon note
+*  Toons infos (realm, class, level, RR, BPs, server) are automatically fetched from the official API
 
-      *  These infos are updated every time NuLauncher is launched
-*  Create, edit, delete teams
+   *  These infos are updated every time NuLauncher is launched
 
-   *  Two toons per team
-   *  Realm must be the same, toon and associated account must be different
+Create, edit, delete teams
 
-*  Select DAoC Path
+*  Two toons per team
+*  Realm must be the same, toon and associated account must be different
 
-   *  game.dll must be in the selected path
+Select DAoC Path
 
-*  When the game is running, select its account and the target screen to move its window
-*  Filter by favorites only
-*  Filter by realm
+*  game.dll must be in the selected path
+
+When the game is running, select its account and the target screen to move its window
+Filter by favorites only
+Filter by realm
 
 Security
 --------
@@ -73,6 +74,15 @@ Limitations
    *  When a new DAoC version is avaible, start DAoC noramlly for the update to take place (no need to log in to the game)
 
 *  Ywain only
+
+Backup and uninstallation
+-------------------------
+
+NuLauncher's files are stored in `Users\<user>\AppData\Roaming\NuLauncher`.
+
+`NuData.json` stores the informations about the accounts, toons and teams.
+
+Delete the `NuLauncher` folder to completely uninstall the software.
 
 ToDo
 ----
