@@ -10,7 +10,7 @@ SendMode Input
 SetWorkingDir, %A_ScriptDir%
 
 if FileExist(A_ScriptDir "\Nu.ico")
-	Menu, Tray, Icon, A_ScriptDir "\Nu.ico"
+	Menu, Tray, Icon, % A_ScriptDir "\Nu.ico"
 
 NuLauncher := new NuLauncher()
 Return
