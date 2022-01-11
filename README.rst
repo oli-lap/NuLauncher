@@ -18,7 +18,7 @@ Quick start
 -----------
 
 * Install `AutoHotkey <https://www.autohotkey.com>`_
-* Download and run `NuLauncher.ahk <https://raw.githubusercontent.com/oli-lap/NuLauncher/main/NuLauncher.ahk>`_ (Ctrl + s to save)
+* Download and run `NuLauncher.ahk <https://raw.githubusercontent.com/oli-lap/NuLauncher/main/NuLauncher.ahk>`_ (Ctrl+s to download)
 * Select the DAoC installation folder
 * Add accounts and toons
 
