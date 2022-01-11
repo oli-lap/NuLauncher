@@ -26,6 +26,9 @@ Features
 * Test feature
    * Test subfeature
    * Test other subfeature
+      * Test other subfeature
+      * Test other subfeature
+   * Test other subfeature
 * Test other feature
 * Test other feature
    * Test subfeature
