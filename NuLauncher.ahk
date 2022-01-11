@@ -1,4 +1,6 @@
-﻿#NoEnv
+﻿;Ctrl+s to download me
+;https://github.com/oli-lap/NuLauncher
+#NoEnv
 #SingleInstance, Force
 #Persistent
 #NoTrayIcon

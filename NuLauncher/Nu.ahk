@@ -1,4 +1,5 @@
-﻿#NoEnv
+﻿;https://github.com/oli-lap/NuLauncher
+#NoEnv
 #SingleInstance, Force
 #Persistent
 #NoTrayIcon
@@ -1217,7 +1218,7 @@ class cDropDownList {
  * Version:
  *     v2.1.3 [updated 04/18/2016 (MM/DD/YYYY)]
  * License:
- *     WTFPL [http://wtfpl.net/]
+ *     WTFPL [http://***.net/]
  * Requirements:
  *     Latest version of AutoHotkey (v1.1+ or v2.0-a+)
  * Installation:
