@@ -1,7 +1,7 @@
 NuLauncher
 ==========
 
-.. image:: https://img.shields.io/discord/348973006581923840.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2
+.. image:: https://img.shields.io/discord/930045111285465138.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2
    :alt: NuLauncher Discord Server
    :target: https://discord.gg/v9GpYWVya5
 
