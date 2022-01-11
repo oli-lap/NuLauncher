@@ -23,26 +23,36 @@ Quick start
 Features
 --------
 
-* Create, edit, delete accounts
-   * Account name
-   * Optional password
-      * Will be saved in NuLauncher.json in plaintext if filled in the account creation
-      * Will be asked every time the account, toon or team is launched if left empty in the account creation. The password will not be stored in this case.
-   * Optional Window name : Renames the game window
-* Create, edit, delete toons
-   * Toon name
-   * Toon associated account
-   * Optional toon note
-   * Toons infos (realm, class, level, RR, BPs, server) are automatically fetched from the official API
-      * These infos are updated every time NuLauncher is launched
-* Create, edit, delete teams
-   * Two toons per team
-   * Realm must be the same, toon and associated account must be different
-* Select DAoC Path
-   * game.dll must be in the selected path
-* When an instance of the game is running, select its account and the target screen to move its window
-* Filter by favorites only
-* Filter by realm
+*  Create, edit, delete accounts
+
+   *  Account name
+   *  Optional password
+
+      *  Will be saved in NuLauncher.json in plaintext if filled in the account creation
+      *  Will be asked every time the account, toon or team is launched if left empty in the account creation. The password will not be stored in this case.
+
+   *  Optional Window name : Renames the game window
+
+*  Create, edit, delete toons
+
+   *  Toon name
+   *  Toon associated account
+   *  Optional toon note
+   *  Toons infos (realm, class, level, RR, BPs, server) are automatically fetched from the official API
+
+      *  These infos are updated every time NuLauncher is launched
+*  Create, edit, delete teams
+
+   *  Two toons per team
+   *  Realm must be the same, toon and associated account must be different
+
+*  Select DAoC Path
+
+   *  game.dll must be in the selected path
+
+*  When an instance of the game is running, select its account and the target screen to move its window
+*  Filter by favorites only
+*  Filter by realm
 
 Security
 --------
