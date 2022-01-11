@@ -1,4 +1,16 @@
-﻿#NoEnv
+﻿
+
+
+
+
+
+
+
+;Not detecting when download fails
+
+
+
+#NoEnv
 #SingleInstance, Force
 #Persistent
 #NoTrayIcon
@@ -13,7 +25,7 @@ NuPath := A_AppData "\NuLauncher"
 
 GitNu := "https://raw.githubusercontent.com/oli-lap/NuLauncher/main/NuLauncher/Nu.ahk"
 GitVer := "https://raw.githubusercontent.com/oli-lap/NuLauncher/main/NuLauncher/version.txt"
-GitIco := "https://raw.githubusercontent.com/oli-lap/NuLauncher/main/NuLauncher/ico/Nu.ico"
+GitIco := "https://raw.githubusercontent.com/oli-lap/NuLauncher/main/NuLauncher/Nu.ico"
 
 MakeUpdate := 0
 
@@ -47,18 +59,15 @@ else {
 if MakeUpdate {
 	Gui, Add, Text,, Updating, please wait...
 	Gui, Show, Center, Updating
-
-	UrlDownloadToFile, % GitVer, %  NuPath "\version.txt"
-	if ErrorLevel
-		MsgBox, There was a problem downloading a file...
-	UrlDownloadToFile, % GitNu, %  NuPath "\Nu.ahk"
-	if ErrorLevel
-		MsgBox, There was a problem downloading a file...
+	OneFail := 0
+	OneFail += DLFile(GitVer, NuPath "\version.txt")
+	OneFail += DLFile(GitNu, NuPath "\Nu.ahk")
 
 	if !FileExist(NuPath "\Nu.ico")
-		UrlDownloadToFile, % GitIco, %  NuPath "\Nu.ico"
-		if ErrorLevel
-			MsgBox, There was a problem downloading a file...
+		OneFail += DLFile(GitIco, NuPath "\Nu.ico")
+	
+	if OneFail
+		MsgBox, There was a problem downloading a file...
 }
 
 if FileExist(NuPath "\Nu.ahk")
@@ -66,3 +75,14 @@ if FileExist(NuPath "\Nu.ahk")
 else
 	MsgBox, There was a problem launching the program...
 ExitApp
+
+DLFile(url, path) {
+	UrlDownloadToFile, % url, % path
+	if ErrorLevel
+		Return 1
+	FileRead, check, % path
+	if Instr(check, "404: Not Found")
+		Return 1
+	else
+		Return 0
+}
