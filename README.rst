@@ -80,11 +80,11 @@ Limitations
 Backup and uninstallation
 -------------------------
 
-NuLauncher's files are stored in `Users\<user>\AppData\Roaming\NuLauncher`.
+NuLauncher's files are stored in :code:`Users\<user>\AppData\Roaming\NuLauncher`.
 
-`NuData.json` stores the informations about the accounts, toons and teams.
+:code:`NuData.json` stores the informations about the accounts, toons and teams.
 
-Delete the `NuLauncher` folder to completely uninstall the software.
+Delete the :code:`NuLauncher` folder to completely uninstall the software.
 
 ToDo
 ----
