@@ -66,7 +66,7 @@ Features
 Security
 --------
 
-*  Passwords saved at the Account creation are stored in plaintext in the NuLauncher.json file. It is advisable to leave the password field empty and to fill it every time the account is connected. The password will not be stored in this case.
+*  Passwords saved at the Account creation are stored in plaintext in the NuData.json file. It is advisable to leave the password field empty and to fill it every time the account is connected. The password will not be stored in this case.
 *  Save the account password at your own risk
 
 Limitations
