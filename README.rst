@@ -24,7 +24,7 @@ Quick start
 
 .. image:: https://raw.githubusercontent.com/oli-lap/NuLauncher/main/NuLauncher/Capture.png
    :alt: Capture of NuLauncher
-   :scale: 70 %
+   :scale: 40 %
 
 Features
 --------
