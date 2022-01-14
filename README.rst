@@ -22,6 +22,10 @@ Quick start
 * Select the DAoC installation folder
 * Add accounts and toons
 
+.. image:: https://raw.githubusercontent.com/oli-lap/NuLauncher/main/NuLauncher/Capture.png
+   :alt: Capture of NuLauncher
+   :scale: 70 %
+
 Features
 --------
 
